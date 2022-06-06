@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100; 1.200;1.300;1.400;1.500;1.600;1.700;1.800;1.900 & display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 14px;
+   
+}
+
+.cabecalho-menu{
+    color: #007190;
+    font-family: 'Montserrat Alternates';
+    gap: 64px;
+    display: flex;
+}
+
+.cabecalho-menu2{
+    color: #007190;
+    font-family: 'Montserrat Alternates';
+    gap: 64px;
+}
+
+.botao{
+    color: #0097C1;
+    border: 1px solid #0097C1;
+    border-radius: 8px;
+    padding-right: 41px;
+    padding-left: 41px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.botao2{
+    background: #0097C1;
+    border-radius: 8px;
+    color: #ffffff;
+    padding-right: 41px;
+    padding-left: 41px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+
+.conteudo{
+    background-image: url(imagens/fundobanner.png);
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.conteudo-texto{
+    font-size: 76px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Montserrat Alternates', sem serifa ;
+    padding-top: 532px;
+    padding-left: 532px;
+    
+}
+
+.conteudo-botao{
+    display: block;
+    display: flex;
+    background-color:#0086AB ;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 20px;;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin: 0 auto;
+}
+
+.espaco{
+    height: 99px;
+}
+
+.espaco01{
+    height: 130px;
+}
+
+.conteudo-segundario{
+    width: 1280px;
+    margin: 0 auto;
+    height: 300px;
+    font-size: 26px;
+}
+
+.coluna-todas{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.noticia-botao{
+    background-color:#B8B8B8;;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+.espaco02{
+    height: 20px;
+}
+
+.titulo{
+   font-size: 30px;
+}
+
+.foto-noticia{
+    padding-right: 41px;
+    padding-left: 68px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    gap: 300px;
+    margin: 0 auto;
+}
+.foto-noticia2{
+    padding-right: 41px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131B48;
+    color: #ffffff;
+    height: 500px;
+    gap: 300px;
+    margin: 0 auto;
+}
+
+.espaco03{
+    height: 538px;
+}
+
+.divisor{
+    height: 2px;
+    margin: 0 auto;
+    border: 0;
+    background-color: black;
+    margin-bottom: 33px;
+    display: block;
+    justify-content: center ;
+    width: 1500px;
+}
+
+.rodapé{
+    align-items: center;
+    justify-content: space-around;
+    padding: 14px;
+    color: black;
+    gap: 60px;
+    display: flex;
+    flex-direction: row;
+}
