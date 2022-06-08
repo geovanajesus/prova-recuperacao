@@ -166,7 +166,12 @@
     justify-content: space-around;
     padding: 14px;
     color: black;
+    display: flex;
+    gap: 658px;
+    flex-direction: row;
+}
+
+.rodapé-menu{
     gap: 60px;
     display: flex;
-    flex-direction: row;
 }
